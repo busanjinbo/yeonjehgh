@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>홍기호 | 연산2·4·5동 구의원 후보</title>
+<title>진보당 홍기호 연산2·4·5동 구의원 후보</title>
 <meta name="description" content="연산2·4·5동 구의원 후보 홍기호 공식 홈페이지입니다.">
-<meta property="og:title" content="홍기호 | 연산2·4·5동 구의원 후보">
+<meta property="og:title" content="진보당 홍기호 연산2·4·5동 구의원 후보">
 <meta property="og:description" content="연산2·4·5동 주민을 위해 실천하는 일꾼, 홍기호와 함께해주세요!">
 <meta property="og:url" content="https://[후보자홈페이지주소].com">
 <meta property="og:image" content="./assets/profile.png">
@@ -71,8 +71,10 @@ padding-bottom: 1.5rem;
 <div class="max-w-5xl mx-auto px-4 sm:px-6">
 <div class="flex justify-between items-center h-16 md:h-20">
 <a href="#" class="flex items-center gap-2 group">
-<div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-secondary flex items-center justify-center text-dark font-extrabold text-sm border border-white shadow-sm">
-5번
+<!-- 진보당 로고 -->
+<img src="./assets/logo.png" alt="진보당 로고" class="h-5 md:h-7 w-auto object-contain">
+<div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-secondary flex items-center justify-center text-dark font-extrabold text-lg border border-white shadow-sm">
+5
 </div>
 <span class="text-xl md:text-2xl font-black tracking-tight text-dark group-hover:text-secondarydark transition-colors">
 홍기호
@@ -125,8 +127,9 @@ padding-bottom: 1.5rem;
 연산2·4·5동 구의원 후보
 </p>
 </div>
-<!-- 우측 후보자 사진 (의도하신 아치형 디자인 4:5 고정) -->
+<!-- 우측 후보자 사진 (4:5 아치형 디자인 강제 적용) -->
 <div class="w-10/12 sm:w-1/2 md:w-2/5 flex justify-center mt-12 md:mt-0 relative z-10">
+<!-- 이미지가 4:5 꽉 차는 아치형으로 그려집니다. 배경 여백 문제를 완벽히 해결! -->
 <img src="./assets/profile.png" alt="홍기호" class="w-full max-w-[400px] h-auto object-cover rounded-t-full rounded-b-2xl shadow-xl shadow-secondary/30 bg-secondary/20" style="aspect-ratio: 4/5;">
 </div>
 </div>
@@ -175,7 +178,7 @@ padding-bottom: 1.5rem;
 <li>익명기부는 1회 10만원 이하, 연간 120만원 이하 후원 가능합니다.</li>
 <li class="rounded p-4 bg-sky-50 text-dark border-l-4 border-secondary font-bold">
 영수증 발행 : 이름 / 주민번호 / 전화번호 / 주소 / 후원금액 / 입금일<br>
-<span class="text-xl text-secondarydark break-words">010-4652-6172</span>로 문자 보내주세요
+<span class="text-xl text-secondarydark break-words cursor-pointer hover:font-black transition-all" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">010-4652-6172</span>로 문자 보내주세요
 </li>
 </ul>
 </div>
@@ -222,7 +225,7 @@ padding-bottom: 1.5rem;
 </li>
 <li class="flex items-start">
 <span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>대한민국 자원봉사대상ꠗ행정안전부장관 표창 (제7226호)</span>
+<span>대한민국 자원봉사대상 행정안전부장관 표창 (제7226호)</span>
 </li>
 <li class="flex items-start">
 <span class="text-secondarydark mr-3 w-4 font-black">·</span>
@@ -247,7 +250,7 @@ padding-bottom: 1.5rem;
 <h2 class="text-3xl md:text-5xl font-black text-dark mb-4">주민을 위해 실천해 온 발자취</h2>
 <div class="w-16 h-1.5 bg-secondary mx-auto"></div>
 </div>
-<!-- 발자취 리스트 리스트형태 -->
+<!-- 발자취 리스트 리스트형태 (모바일 상하, PC 좌우 병렬) -->
 <div class="space-y-12 md:space-y-16">
 <!-- 아이템 1 -->
 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
@@ -260,6 +263,7 @@ padding-bottom: 1.5rem;
 </p>
 </div>
 </div>
+
 <!-- 아이템 2 -->
 <div class="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
@@ -271,6 +275,7 @@ padding-bottom: 1.5rem;
 </p>
 </div>
 </div>
+
 <!-- 아이템 3 -->
 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
@@ -282,6 +287,7 @@ padding-bottom: 1.5rem;
 </p>
 </div>
 </div>
+
 </div>
 </div>
 </section>
@@ -295,6 +301,7 @@ padding-bottom: 1.5rem;
 <!-- 공보물이 아직 안 나온 상태 - '준비중입니다' 안내 패널 -->
 <div class="absolute inset-x-0 bottom-0 top-[180px] flex items-center justify-center pointer-events-none px-4 z-20 pb-10">
 <div class="bg-white/95 px-8 md:px-16 py-12 rounded-3xl shadow-xl text-center border-4 border-secondary/50 max-w-2xl w-full">
+<!-- 아이콘 모양 -->
 <div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6 text-white rotate-12">
 <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
 </div>
@@ -305,9 +312,10 @@ padding-bottom: 1.5rem;
 </p>
 </div>
 </div>
-<!-- 카드 UI -->
+<!-- 카드 UI (내용 업데이트 전까지 안내문 뒤에 블러 숨김 보존) -->
 <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-0 opacity-20 pointer-events-none blur-[2px]">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- 카드 예시 -->
 <div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
 <span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-4">핵심공약 1</span>
 <h4 class="text-xl font-bold mb-3 text-dark">공약 제목이 들어갈 자리입니다</h4>
@@ -330,10 +338,9 @@ padding-bottom: 1.5rem;
 <!-- 6. 푸터 -->
 <footer class="bg-dark text-white pt-10 pb-8 mt-auto">
 <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-<h4 class="text-2xl font-black text-white mb-4">홍기호 선거사무소</h4>
+<h4 class="text-2xl font-black text-white mb-4">진보당 홍기호 연산2·4·5동 구의원 후보</h4>
 <div class="text-gray-400 font-light text-sm md:text-base mb-6 space-y-2">
-<p>전화: <strong class="text-white">010-4652-6172</strong></p>
-<p>문자로 영수증 발행 요청 (이름/주민번호/주소/금액/입금일)</p>
+<p>전화: <strong class="text-white cursor-pointer hover:text-secondary transition-colors" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">010-4652-6172</strong></p>
 </div>
 <div class="text-xs text-gray-500 font-light mt-8">
 &copy; 2026 홍기호 선거사무소. All rights reserved.
@@ -356,6 +363,23 @@ mobileLinks.forEach(link => {
         menu.classList.add('hidden');
     });
 });
+
+// --- 전화번호 복사 로직 ---
+function copyPhoneNumber(numberStr) {
+    const tempElem = document.createElement('textarea');
+    tempElem.value = numberStr;
+    document.body.appendChild(tempElem);
+    tempElem.select();
+    
+    try {
+        document.execCommand('copy');
+        alert('전화번호가 정상적으로 복사되었습니다.');
+    } catch (err) {
+        alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
+    }
+    
+    document.body.removeChild(tempElem);
+}
 
 // --- 계좌번호 복사 로직 ---
 function copyAccount() {
