@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>진보당 홍기호 연산2·4·5동 구의원 후보</title>
-<meta name="description" content="연산2·4·5동 구의원 후보 홍기호 공식 홈페이지입니다.">
-<meta property="og:title" content="진보당 홍기호 연산2·4·5동 구의원 후보">
-<meta property="og:description" content="연산2·4·5동 주민을 위해 실천하는 일꾼, 홍기호와 함께해주세요!">
+<title>진보당 [후보자명] [동/읍] [선거종류] 후보</title>
+<meta name="description" content="[동/읍] [선거종류] 후보 [후보자명] 공식 홈페이지입니다.">
+<meta property="og:title" content="진보당 [후보자명] [동/읍] [선거종류] 후보">
+<meta property="og:description" content="[동/읍] 주민을 위해 실천하는 일꾼, [후보자명]과 함께해주세요!">
 <meta property="og:url" content="https://[후보자홈페이지주소].com">
 <meta property="og:image" content="./assets/profile.png">
 <meta property="og:type" content="website">
@@ -17,51 +17,51 @@
 <!-- Tailwind 설정 -->
 <script>
 tailwind.config = {
-theme: {
-extend: {
-fontFamily: {
-sans: ['Pretendard', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-},
-colors: {
-primary: '#ffffff', // 메인 배경 (흰색)
-secondary: '#addef8', // 메인/서브 테마 넓은 면적 (하늘색)
-secondarydark: '#7bc1e8', // 텍스트 등 가독성을 위한 하늘색 톤
-point: '#e60012', // 강조/복사버튼 용도 (빨간색 - 극소량)
-dark: '#1e293b', // 주요 텍스트 
-graytext: '#475569', // 부가 텍스트
-graylight: '#f8fafc', // 보조 배경
-}
-}
-}
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Pretendard', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        primary: '#ffffff', // 메인 배경 (흰색)
+        secondary: '#addef8', // 메인/서브 테마 넓은 면적 (하늘색)
+        secondarydark: '#7bc1e8', // 텍스트 등 가독성을 위한 하늘색 톤
+        point: '#e60012', // 강조/복사버튼 용도 (빨간색 - 극소량)
+        dark: '#1e293b', // 주요 텍스트 
+        graytext: '#475569', // 부가 텍스트
+        graylight: '#f8fafc', // 보조 배경
+      }
+    }
+  }
 }
 </script>
 <style>
 body {
-font-family: 'Pretendard', sans-serif;
-color: #1e293b;
-background-color: #ffffff;
-word-break: keep-all; 
+  font-family: 'Pretendard', sans-serif;
+  color: #1e293b;
+  background-color: #ffffff;
+  word-break: keep-all; 
 }
 html {
-scroll-padding-top: 70px; 
+  scroll-padding-top: 70px; 
 }
 .img-cover {
-object-fit: cover;
-width: 100%;
-height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 /* 아코디언 관련 애니메이션 */
 .donate-details {
-max-height: 0;
-opacity: 0;
-overflow: hidden;
-transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
 }
 .donate-details.active {
-max-height: 800px;
-opacity: 1;
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
+  max-height: 800px;
+  opacity: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 </style>
 </head>
@@ -77,7 +77,7 @@ padding-bottom: 1.5rem;
 5
 </div>
 <span class="text-xl md:text-2xl font-black tracking-tight text-dark group-hover:text-secondarydark transition-colors">
-홍기호
+[후보자명]
 </span>
 </a>
 <div class="hidden md:flex space-x-6 items-center">
@@ -105,7 +105,6 @@ padding-bottom: 1.5rem;
 </div>
 </div>
 </nav>
-
 <!-- 1. 메인 히어로 섹션 -->
 <header id="hero" class="relative w-full mt-16 md:mt-20 pt-10 md:pt-0 md:h-[80vh] min-h-[600px] bg-sky-50 overflow-hidden flex items-center">
 <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary rounded-full opacity-40 blur-3xl transform translate-x-1/3 -translate-y-1/3"></div>
@@ -119,44 +118,43 @@ padding-bottom: 1.5rem;
 </div>
 <!-- 메인 타이틀 -->
 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-dark leading-tight tracking-tight mb-4 break-keep">
-일하는 구의원<br>
-<span class="text-secondarydark">홍기호</span>
+일하는 [선거종류]<br>
+<span class="text-secondarydark">[후보자명]</span>
 </h1>
 <!-- 서브 설명 -->
 <p class="text-xl md:text-2xl text-graytext font-medium break-keep mb-8 bg-white/60 inline-block px-3 py-1 rounded-lg">
-연산2·4·5동 구의원 후보
+[동/읍] [선거종류] 후보
 </p>
 </div>
 <!-- 우측 후보자 사진 (4:5 아치형 디자인 강제 적용) -->
 <div class="w-10/12 sm:w-1/2 md:w-2/5 flex justify-center mt-12 md:mt-0 relative z-10">
 <!-- 이미지가 4:5 꽉 차는 아치형으로 그려집니다. 배경 여백 문제를 완벽히 해결! -->
-<img src="./assets/profile.png" alt="홍기호" class="w-full max-w-[400px] h-auto object-cover rounded-t-full rounded-b-2xl shadow-xl shadow-secondary/30 bg-secondary/20" style="aspect-ratio: 4/5;">
+<img src="./assets/profile.png" alt="[후보자명]" class="w-full max-w-[400px] h-auto object-cover rounded-t-full rounded-b-2xl shadow-xl shadow-secondary/30 bg-secondary/20" style="aspect-ratio: 4/5;">
 </div>
 </div>
 </header>
-
 <!-- 2. 후원 안내 섹션 -->
 <section id="donate" class="py-20 md:py-28 bg-white relative">
 <div class="max-w-4xl mx-auto px-4 sm:px-6">
 <div class="text-center mb-10">
-<h2 class="text-4xl md:text-5xl font-black text-dark mb-4 break-keep">홍기호에게 힘이 되어주세요.</h2>
+<h2 class="text-4xl md:text-5xl font-black text-dark mb-4 break-keep">[후보자명]에게 힘이 되어주세요.</h2>
 <div class="w-16 h-1.5 bg-secondary mx-auto mb-6"></div>
 <h3 class="text-xl md:text-2xl text-secondarydark font-bold mb-6 break-keep">
-오직, 연산2·4·5동 주민에게만 빚지고 싶습니다
+오직, [동/읍] 주민에게만 빚지고 싶습니다
 </h3>
 <p class="text-graytext text-lg md:text-xl font-medium space-y-2 break-keep bg-sky-50 py-6 px-4 rounded-xl border border-sky-100">
 <span class="block text-dark font-bold">주민에게 빚져야 주민께 봉사로 갚습니다.</span>
 <span class="block">10만원까지는 연말정산 시 <span class="text-point font-bold">전액 돌려받습니다.</span></span>
-<span class="block">연산2·4·5동 주민의 후원이 간절합니다.</span>
+<span class="block">[동/읍] 주민의 후원이 간절합니다.</span>
 </p>
 </div>
 <!-- 계좌 정보 및 복사 버튼 -->
 <div class="bg-white border-2 border-secondary rounded-2xl p-6 md:p-10 shadow-lg text-center mb-8 relative">
 <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-<span id="account-number" class="text-3xl md:text-4xl font-black text-dark tracking-wider">부산은행 113-2020-3227-00</span>
+<span id="account-number" class="text-3xl md:text-4xl font-black text-dark tracking-wider">[후원계좌]</span>
 </div>
 <p class="text-2xl font-bold text-gray-700 mb-8">
-예금주 : 홍기호후원회(연제구의원선거)
+예금주 : [예금주]
 </p>
 <!-- 빨간색 포인트 컬러 버튼 -->
 <button onclick="copyAccount()" class="inline-flex items-center justify-center gap-2 bg-point text-white text-lg font-bold px-8 py-4 rounded-xl shadow-lg shadow-point/30 hover:bg-red-700 active:scale-95 transition-all w-full sm:w-auto">
@@ -178,20 +176,19 @@ padding-bottom: 1.5rem;
 <li>익명기부는 1회 10만원 이하, 연간 120만원 이하 후원 가능합니다.</li>
 <li class="rounded p-4 bg-sky-50 text-dark border-l-4 border-secondary font-bold">
 영수증 발행 : 이름 / 주민번호 / 전화번호 / 주소 / 후원금액 / 입금일<br>
-<span class="text-xl text-secondarydark break-words cursor-pointer hover:font-black transition-all" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">010-4652-6172</span>로 문자 보내주세요
+<span class="text-xl text-secondarydark break-words cursor-pointer hover:font-black transition-all" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">[대표번호]</span>로 문자 보내주세요
 </li>
 </ul>
 </div>
 </div>
 </div>
 </section>
-
 <!-- 3. 후보 소개 섹션 -->
 <section id="about" class="py-20 md:py-28 bg-sky-50 border-t-2 border-secondary border-opacity-30">
 <div class="max-w-5xl mx-auto px-4 sm:px-6">
 <div class="text-center mb-12">
 <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-dark break-keep tracking-tight">
-채소집 아들, 싱싱한 정치
+[후보자 캐치프레이즈]
 </h2>
 <div class="w-20 h-1.5 bg-secondary mx-auto mt-6 rounded-full"></div>
 </div>
@@ -199,7 +196,7 @@ padding-bottom: 1.5rem;
 <div class="flex flex-col md:flex-row gap-8 items-stretch bg-white rounded-2xl p-6 md:p-8 shadow-sm">
 <!-- 좌측 : 후보자 프로필 (상단과 완벽히 동일한 규격의 4:5 고정 박스) -->
 <div class="w-full md:w-5/12 overflow-hidden flex items-center justify-center">
-<img src="./assets/profile.png" alt="홍기호 초상화 프로필" class="w-full h-auto object-cover rounded-2xl shadow-sm border border-gray-100" style="aspect-ratio: 4/5;">
+<img src="./assets/profile.png" alt="[후보자명] 초상화 프로필" class="w-full h-auto object-cover rounded-2xl shadow-sm border border-gray-100" style="aspect-ratio: 4/5;">
 </div>
 <!-- 우측 : 인사말 및 주요약력 -->
 <div class="w-full md:w-7/12 flex flex-col justify-between space-y-8">
@@ -207,7 +204,7 @@ padding-bottom: 1.5rem;
 <div>
 <h3 class="font-bold text-dark mb-4 text-xl border-l-4 border-secondary pl-3">후보 인사말</h3>
 <p class="text-graytext text-lg leading-relaxed break-keep font-medium bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm">
-우리 거제동은 지난 수년간 많은 성장을 이뤄냈지만, 여전히 교통, 복지, 골목상권 등 세심하게 살펴야 할 숙제들이 남아있습니다. 저는 말보다는 행동으로, 변명보다는 실천으로 증명해 왔습니다. 주민 여러분의 삶의 질을 높이기 위한 진정한 생활정치, 저 홍기호가 약속드립니다.
+[인사말]
 </p>
 </div>
 <!-- 약력 리스트 영역 -->
@@ -217,23 +214,15 @@ padding-bottom: 1.5rem;
 <ul class="space-y-3 font-semibold text-gray-800 text-lg">
 <li class="flex items-start">
 <span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>연동초‧연산중‧부산동성고 (졸)</span>
+<span>[주요약력 내용을 여기에 입력하세요]</span>
 </li>
 <li class="flex items-start">
 <span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>동의대 사회복지학과 (졸)</span>
+<span>[주요약력 내용을 여기에 입력하세요]</span>
 </li>
 <li class="flex items-start">
 <span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>대한민국 자원봉사대상 행정안전부장관 표창 (제7226호)</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>1급 사회복지사, 교통안전지도사</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>풀 마라톤 5회 완주(PB 3시간 15분)</span>
+<span>[주요약력 내용을 여기에 입력하세요]</span>
 </li>
 </ul>
 </div>
@@ -242,7 +231,6 @@ padding-bottom: 1.5rem;
 </div>
 </div>
 </section>
-
 <!-- 4. 지역활동 소개 섹션 -->
 <section id="activity" class="py-20 md:py-28 bg-white">
 <div class="max-w-5xl mx-auto px-4 sm:px-6">
@@ -252,46 +240,44 @@ padding-bottom: 1.5rem;
 </div>
 <!-- 발자취 리스트 리스트형태 (모바일 상하, PC 좌우 병렬) -->
 <div class="space-y-12 md:space-y-16">
-<!-- 아이템 1 -->
+<!-- 아이템 1 (제공된 활동사진 1) -->
 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity1.jpg" alt="거제동 자율방범대 야간 순찰 활동" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
+<img src="./assets/activity1.jpg" alt="[활동사진 1 (./assets/activity1.jpg)]" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
 </div>
 <div class="w-full md:w-1/2">
 <p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-거제동 자율방범대 야간 순찰 활동
+[관련 글 1 내용]
 </p>
 </div>
 </div>
-
-<!-- 아이템 2 -->
+<!-- 아이템 2 (제공된 활동사진 2 - PC화면 교차 레이아웃) -->
 <div class="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity2.jpg" alt="어르신 무료 급식 봉사" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
+<img src="./assets/activity2.jpg" alt="[활동사진 2 (./assets/activity2.jpg)]" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
 </div>
 <div class="w-full md:w-1/2">
 <p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-어르신 무료 급식 봉사
+[관련 글 2 내용]
 </p>
 </div>
 </div>
-
-<!-- 아이템 3 -->
+<!-- 추가 시 이 구조를 복사해서 쓰시면 됩니다 -->
+<!--
 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity3.jpg" alt="칼갈이 봉사" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
+<img src="./assets/activity3.jpg" alt="[활동사진 3 (./assets/activity3.jpg)]" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
 </div>
 <div class="w-full md:w-1/2">
 <p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-칼갈이 봉사
+[관련 글 3 내용]
 </p>
 </div>
 </div>
-
+-->
 </div>
 </div>
 </section>
-
 <!-- 5. 공약 홍보 섹션 -->
 <section id="pledge" class="py-20 md:py-32 bg-sky-50 relative border-t border-secondary/20 min-h-[500px]">
 <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center mb-10">
@@ -334,20 +320,18 @@ padding-bottom: 1.5rem;
 </div>
 </div>
 </section>
-
 <!-- 6. 푸터 -->
 <footer class="bg-dark text-white pt-10 pb-8 mt-auto">
 <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-<h4 class="text-2xl font-black text-white mb-4">진보당 홍기호 연산2·4·5동 구의원 후보</h4>
 <div class="text-gray-400 font-light text-sm md:text-base mb-6 space-y-2">
-<p>전화: <strong class="text-white cursor-pointer hover:text-secondary transition-colors" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">010-4652-6172</strong></p>
+<p>진보당 [후보자명] [동/읍] [선거종류] 후보</p>
+<p>전화: <strong class="text-white cursor-pointer hover:text-secondary transition-colors" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">[대표번호]</strong></p>
 </div>
 <div class="text-xs text-gray-500 font-light mt-8">
-&copy; 2026 홍기호 선거사무소. All rights reserved.
+&copy;2026 [후보자명] 선거사무소. All rights reserved.
 </div>
 </div>
 </footer>
-
 <!-- 7. 자바스크립트 스크립트 -->
 <script>
 // --- 모바일 메뉴 로직 ---
@@ -356,47 +340,44 @@ const menu = document.getElementById('mobile-menu');
 const mobileLinks = document.querySelectorAll('.mobile-link');
 
 btn.addEventListener('click', () => {
-    menu.classList.toggle('hidden');
+  menu.classList.toggle('hidden');
 });
+
 mobileLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        menu.classList.add('hidden');
-    });
+  link.addEventListener('click', () => {
+    menu.classList.add('hidden');
+  });
 });
 
 // --- 전화번호 복사 로직 ---
 function copyPhoneNumber(numberStr) {
-    const tempElem = document.createElement('textarea');
-    tempElem.value = numberStr;
-    document.body.appendChild(tempElem);
-    tempElem.select();
-    
-    try {
-        document.execCommand('copy');
-        alert('전화번호가 정상적으로 복사되었습니다.');
-    } catch (err) {
-        alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
-    }
-    
-    document.body.removeChild(tempElem);
+  const tempElem = document.createElement('textarea');
+  tempElem.value = numberStr;
+  document.body.appendChild(tempElem);
+  tempElem.select();
+  try {
+    document.execCommand('copy');
+    alert('전화번호가 정상적으로 복사되었습니다.');
+  } catch(err) {
+    alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
+  }
+  document.body.removeChild(tempElem);
 }
 
 // --- 계좌번호 복사 로직 ---
 function copyAccount() {
-    const accountText = document.getElementById('account-number').innerText;
-    const tempElem = document.createElement('textarea');
-    tempElem.value = accountText;
-    document.body.appendChild(tempElem);
-    tempElem.select();
-    
-    try {
-        document.execCommand('copy');
-        alert('계좌번호가 정상적으로 복사되었습니다. \n따뜻한 후원에 진심으로 감사드립니다!');
-    } catch (err) {
-        alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
-    }
-    
-    document.body.removeChild(tempElem);
+  const accountText = document.getElementById('account-number').innerText;
+  const tempElem = document.createElement('textarea');
+  tempElem.value = accountText;
+  document.body.appendChild(tempElem);
+  tempElem.select();
+  try {
+    document.execCommand('copy');
+    alert('계좌번호가 정상적으로 복사되었습니다. \n따뜻한 후원에 진심으로 감사드립니다!');
+  } catch(err) {
+    alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
+  }
+  document.body.removeChild(tempElem);
 }
 
 // --- 후원 상세 안내 아코디언 로직 ---
@@ -405,15 +386,14 @@ const donateContent = document.getElementById('donate-detail-content');
 const donateIcon = document.getElementById('donate-detail-icon');
 
 donateBtn.addEventListener('click', () => {
-    const isClosed = !donateContent.classList.contains('active');
-    
-    if (isClosed) {
-        donateContent.classList.add('active');
-        donateIcon.classList.add('rotate-180');
-    } else {
-        donateContent.classList.remove('active');
-        donateIcon.classList.remove('rotate-180');
-    }
+  const isClosed = !donateContent.classList.contains('active');
+  if (isClosed) {
+    donateContent.classList.add('active');
+    donateIcon.classList.add('rotate-180');
+  } else {
+    donateContent.classList.remove('active');
+    donateIcon.classList.remove('rotate-180');
+  }
 });
 </script>
 </body>
