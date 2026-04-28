@@ -12,6 +12,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
+<meta name="format-detection" content="telephone=no">
 <!-- Twitter Card 설정 (텔레그램, 트위터 최적화) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="진보당 홍기호 연산2·4·5동 구의원 후보">
@@ -190,155 +191,335 @@ html {
 </div>
 </div>
 </section>
-<!-- 3. 후보 소개 섹션 -->
 <section id="about" class="py-20 md:py-28 bg-sky-50 border-t-2 border-secondary border-opacity-30">
 <div class="max-w-5xl mx-auto px-4 sm:px-6">
-<div class="text-center mb-12">
-<h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-dark break-keep tracking-tight">
-채소집 아들, 싱싱한 정치
-</h2>
-<div class="w-20 h-1.5 bg-secondary mx-auto mt-6 rounded-full"></div>
+<!-- 봉사왕 홍기호 블럭 이동됨 -->
+<!-- 가독성을 살린 프로필 및 인사말 구조 -->
+<div class="flex flex-col md:flex-row gap-8 items-stretch bg-white rounded-2xl p-6 md:p-8 shadow-sm mb-12">
+  <!-- 좌측 : 후보자 프로필 -->
+  <div class="w-full md:w-5/12 overflow-hidden flex items-center justify-center">
+    <img src="./assets/profile2.png" alt="홍기호 프로필" class="w-full h-auto object-cover rounded-2xl shadow-sm border border-gray-100" style="aspect-ratio: 4/5;">
+  </div>
+  <!-- 우측 : 인사말 -->
+  <div class="w-full md:w-7/12 flex flex-col justify-center space-y-8">
+    <div>
+      <h3 class="font-bold text-dark mb-4 text-2xl border-l-4 border-secondary pl-3">연제구를 위해 봉사해왔습니다</h3>
+      <p class="text-graytext text-lg leading-relaxed break-keep font-medium bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm">
+        부산대표 자원봉사 '사랑의 몰래산타' 연제구준비위원장을 맡아 소외아동, 다문화가정, 독거어르신을 위한 연말나눔을 기획, 실천하였습니다.<br><br>
+        비영리민간단체 '부산청년문화센터' 대표로서 연제구 내 집수리 봉사, 밑반찬 나눔, 어린이 빛그림 공연 등 다양한 나눔활동을 꾸준히 이어왔습니다.
+      </p>
+    </div>
+  </div>
 </div>
-<!-- 가독성을 살린 프로필, [인사말]과 [주요약력] 구조 -->
-<div class="flex flex-col md:flex-row gap-8 items-stretch bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-<!-- 좌측 : 후보자 프로필 (상단과 완벽히 동일한 규격의 4:5 고정 박스) -->
-<div class="w-full md:w-5/12 overflow-hidden flex items-center justify-center">
-<img src="./assets/profile2.png" alt="홍기호 초상화 프로필" class="w-full h-auto object-cover rounded-2xl shadow-sm border border-gray-100" style="aspect-ratio: 4/5;">
+
+<!-- 봉사활동 사진 오버랩 -->
+<div class="relative w-full max-w-3xl mx-auto h-[350px] md:h-[500px] mb-16">
+  <img src="./assets/activity1.png" alt="봉사활동 1" class="absolute top-0 left-0 w-[70%] h-auto object-cover rounded-2xl z-10" style="aspect-ratio: 4/3;">
+  <img src="./assets/activity2.png" alt="봉사활동 2" class="absolute bottom-0 right-0 w-[70%] h-auto object-cover rounded-2xl z-20 transform scale-[0.9] translate-y-[10px] origin-bottom-right" style="aspect-ratio: 4/3;">
 </div>
-<!-- 우측 : 인사말 및 주요약력 -->
-<div class="w-full md:w-7/12 flex flex-col justify-between space-y-8">
-<!-- 인사말 영역 -->
-<div>
-<h3 class="font-bold text-dark mb-4 text-xl border-l-4 border-secondary pl-3">후보 인사말</h3>
-<p class="text-graytext text-lg leading-relaxed break-keep font-medium bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm">
-우리 거제동은 지난 수년간 많은 성장을 이뤄냈지만, 여전히 교통, 복지, 골목상권 등 세심하게 살펴야 할 숙제들이 남아있습니다. 저는 말보다는 행동으로, 변명보다는 실천으로 증명해 왔습니다. 주민 여러분의 삶의 질을 높이기 위한 진정한 생활정치, 저 홍기호가 약속드립니다.
-</p>
+
+<!-- 영화 속 홍반장 타이틀 -->
+<div class="text-center mb-8">
+  <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-dark break-keep tracking-tight mb-4">
+    "영화 속 홍반장이 따로 없네"
+  </h2>
+  <div class="w-20 h-1.5 bg-secondary mx-auto mt-4 rounded-full"></div>
 </div>
-<!-- 약력 리스트 영역 -->
-<div class="flex-grow">
-<h3 class="font-bold text-dark mb-4 text-xl border-l-4 border-secondary pl-3">주요 약력</h3>
-<div class="bg-sky-50/50 rounded-xl p-6 border border-sky-100 h-full">
-<ul class="space-y-3 font-semibold text-gray-800 text-lg">
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>연동초‧연산중‧부산동성고 (졸)</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>동의대 사회복지학과 (졸)</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>대한민국 자원봉사대상 행정안전부장관 표창 (제7226호)</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>1급 사회복지사, 교통안전지도사</span>
-</li>
-<li class="flex items-start">
-<span class="text-secondarydark mr-3 w-4 font-black">·</span>
-<span>풀 마라톤 5회 완주(PB 3시간 15분)</span>
-</li>
-</ul>
+<!-- 홍반장 본문 -->
+<div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm mb-16">
+  <p class="text-graytext text-lg md:text-xl leading-relaxed break-keep font-medium text-center mb-8">
+    아이들의 안전한 등굣길을 위해 아침부터 노란 깃발을 들었습니다. 좋은 정부 지원책이 있어도 방법을 몰라 막막해하시는 상인분들을 뵐 때면, 일일이 상가를 돌며 작은 혜택이라도 찾아드리려 애썼습니다.<br><br>
+    의무감으로는 할 수 없는 일입니다. 봉사는 오히려 저를 행복하게 만들고 더 나은 사람으로 키워주었습니다.
+  </p>
+  <!-- 홍반장 활동 사진들 -->
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+    <img src="./assets/activity3.png" alt="활동사진 3" class="w-full h-auto rounded-xl object-cover aspect-square">
+    <img src="./assets/activity4.png" alt="활동사진 4" class="w-full h-auto rounded-xl object-cover aspect-square">
+    <img src="./assets/activity5.png" alt="활동사진 5" class="w-full h-auto rounded-xl object-cover aspect-square md:col-span-1 col-span-2">
+    <img src="./assets/activity6.png" alt="활동사진 6" class="w-full h-auto rounded-xl object-cover aspect-square">
+    <img src="./assets/activity7.png" alt="활동사진 7" class="w-full h-auto rounded-xl object-cover aspect-square">
+  </div>
 </div>
-</div>
-</div>
+
+<!-- 봉사왕 & 걸어온 길 통합 구역 -->
+<div class="bg-white rounded-3xl p-6 md:p-10 mb-12 shadow-md border-t-4 border-secondary">
+  <!-- 봉사왕 홍기호 블록 -->
+  <div class="text-center mb-16">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-dark break-keep tracking-tight mb-4">
+      봉사왕 홍기호
+    </h2>
+    <div class="inline-block text-left text-gray-700 font-medium text-base md:text-lg bg-gray-50 px-6 md:px-10 py-6 md:py-8 rounded-2xl border border-gray-200 mt-4">
+      <ul class="space-y-2">
+        <li>· 연제칼갈이봉사단 단장(현)</li>
+        <li>· 대한민국 자원봉사대상 행정안전부장관 표창(제7226호)</li>
+        <li>· 부산광역시자원봉사센터 이달의 자원봉사자 표창(제2011-025호)</li>
+        <li>· 부산시 비영리민간단체 부산청년문화센터 대표(전)</li>
+        <li>· 사랑의몰래산타 연제구지역준비위원장(전)</li>
+        <li>· 아름다운가게 13차 수익 나눔 위원(전)</li>
+        <li>· 1급 사회복지사, 교통안전지도사</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 걸어온 길 타이틀 -->
+  <div class="text-center mb-8">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-dark break-keep tracking-tight mb-4">
+      홍기호가 걸어온 길
+    </h2>
+    <div class="w-20 h-1.5 bg-secondary mx-auto mt-4 rounded-full"></div>
+  </div>
+  <!-- 약력 리스트 영역 -->
+  <div class="bg-white rounded-2xl p-6 md:p-8 border border-sky-100 mb-12 max-w-3xl mx-auto shadow-sm">
+    <ul class="space-y-4 font-semibold text-gray-800 text-lg md:text-xl">
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>1979년 부산 출생</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>연동초-연산중-부산동성고</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>동의대학교 사회복지학과 졸업</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>진보당 부산광역시당 대변인(현)</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>민주평화통일 대통령 자문위원(현)</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>연동초등학교 학교운영위원(현)</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>부산광역시 주민참여예산위원(현)</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>연제주민대회 공동조직위원장(현)</span></li>
+      <li class="flex items-start"><span class="text-secondarydark mr-3 w-4 font-black">·</span><span>배우자, 세 딸과 함께 연산동에 살고 있습니다</span></li>
+    </ul>
+  </div>
+
+
 </div>
 </div>
 </section>
 <!-- 4. 지역활동 소개 섹션 -->
 <section id="activity" class="py-20 md:py-28 bg-white">
 <div class="max-w-5xl mx-auto px-4 sm:px-6">
-<div class="text-center mb-16">
-<h2 class="text-3xl md:text-5xl font-black text-dark mb-4">주민을 위해 실천해 온 발자취</h2>
-<div class="w-16 h-1.5 bg-secondary mx-auto"></div>
+<!-- 사진과 문구 영역 -->
+<div class="mb-16">
+  <div class="relative w-full overflow-hidden rounded-2xl shadow-md border border-gray-100 group">
+    <img src="./assets/activity8.png" alt="민원해결왕 홍기호 활동 배경사진" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 block">
+    <!-- 하단 검은색 그라데이션 (문구가 보일 만큼만) -->
+    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+    <!-- 이미지 안쪽 하단 10px 위치에 텍스트 배치 -->
+    <div class="absolute bottom-[10px] left-0 w-full text-center z-20">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white drop-shadow-lg tracking-tight px-4 break-keep">민원해결왕 홍기호</h2>
+    </div>
+  </div>
+  <p class="mt-[5px] text-lg md:text-xl font-bold text-center text-dark break-keep leading-relaxed pt-2">
+    연일시장 채소집 아들, 서민의 삶과 고충을 잘 압니다. 고단했던 어머니의 하루를 기억하며, 연제주민들의 고충을 잘 해결하는 정치를 하겠습니다.
+  </p>
 </div>
-<!-- 발자취 리스트 리스트형태 (모바일 상하, PC 좌우 병렬) -->
-<div class="space-y-12 md:space-y-16">
-<!-- 아이템 1 (제공된 활동사진 1) -->
-<div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-<div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity1.png" alt="거제동 자율방범대 야간 순찰 활동" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
-</div>
-<div class="w-full md:w-1/2">
-<p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-거제동 자율방범대 야간 순찰 활동(등)을 바탕으로 주민 여러분의 안전을 가장 먼저 살피는 발로 뛰는 정치를 실천해 왔습니다.
-</p>
-</div>
-</div>
-<!-- 아이템 2 (제공된 활동사진 2 - PC화면 교차 레이아웃) -->
-<div class="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10">
-<div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity2.png" alt="어르신 무료 급식 봉사" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
-</div>
-<div class="w-full md:w-1/2">
-<p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-꾸준한 어르신 무료 급식 봉사를 통해 따뜻한 이웃의 정을 나누며, 복지 사각지대 없는 연제구를 만들기 위해 앞장서겠습니다.
-</p>
-</div>
-</div>
-<!-- 아이템 3 (제공된 활동사진 3) -->
-<div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-<div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-sm bg-gray-100 border border-gray-100">
-<img src="./assets/activity3.png" alt="칼갈이 봉사" class="w-full h-auto object-cover aspect-video hover:scale-105 transition-transform duration-500">
-</div>
-<div class="w-full md:w-1/2">
-<p class="text-lg text-graytext break-keep leading-relaxed bg-sky-50 px-5 py-6 rounded-xl font-medium border border-sky-100 shadow-sm">
-생활 밀착형 칼갈이 봉사 등 가장 가까운 곳에서 주민들의 작은 불편부터 꼼꼼히 덜어드리는 든든한 구의원이 되겠습니다.
-</p>
-</div>
-</div>
+
+<!-- 발자취 리스트 (5가지 업적) -->
+<div class="space-y-6 md:space-y-8">
+  <div class="bg-gray-50 p-6 md:p-10 rounded-3xl border border-gray-200 shadow-sm relative overflow-hidden">
+    <div class="mb-8 text-center md:text-left">
+      <h3 class="text-2xl md:text-3xl lg:text-4xl font-black text-dark mb-6 break-keep leading-tight">
+        <span class="text-secondarydark">"</span>어린이집 등·하원 시 담배 연기로 인해 아이들의 건강이 우려돼요.<span class="text-secondarydark">"</span>
+      </h3>
+      <div class="flex flex-wrap justify-center md:justify-start gap-3 mb-8">
+        <span class="bg-secondary text-dark font-bold px-5 py-2.5 rounded-full text-sm md:text-base shadow-sm">간접흡연 예방 어르신 홍보단 배치</span>
+        <span class="bg-secondary text-dark font-bold px-5 py-2.5 rounded-full text-sm md:text-base shadow-sm">어린이집 인근 흡연 자제 현수막 게시</span>
+      </div>
+      <p class="text-lg md:text-xl text-gray-700 break-keep leading-relaxed font-medium mb-6">
+        연산2동 일대(비스타동원APT–시청앞행복주택APT 등)에서<br class="hidden md:block">
+        어린이집·횡단보도 인근 길거리 흡연 문제를 해결하기 위해 주민<br class="hidden md:block">
+        민원을 조직해 구의회와 보건소에 전달했습니다.<br>
+        그 결과, 간접흡연 예방 어르신 홍보단이 배치되고<br class="hidden md:block">
+        흡연 자제 현수막이 설치됐습니다.
+      </p>
+      <div class="text-sm md:text-base text-gray-500 space-y-1 bg-white p-4 rounded-xl border border-gray-100 inline-block text-left w-full md:w-auto">
+        <p class="font-medium">* 금연구역 표시 강화는 연제구 보건소에 전달해 협의 중입니다.</p>
+        <p class="font-medium">* 흡연권 보장을 위한 스마트 흡연부스 설치도 추진하겠습니다.</p>
+      </div>
+    </div>
+    <div class="flex flex-col gap-4">
+      <img src="./assets/activity9.png" class="w-full h-auto rounded-xl">
+      <div class="grid grid-cols-2 gap-4">
+        <img src="./assets/activity10.png" class="w-full h-auto rounded-xl">
+        <img src="./assets/activity11.png" class="w-full h-auto rounded-xl">
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-sky-50 p-6 rounded-xl border border-sky-100 shadow-sm">
+    <h3 class="text-xl md:text-2xl font-bold text-dark mb-4 break-keep border-l-4 border-point pl-3">청년 생활체육시설 &lt;철봉공원&gt; 조성 실현</h3>
+    <p class="text-lg text-graytext break-keep leading-relaxed font-medium mb-6">
+      예산이 없다는 벽 앞에서도, 청년들과 함께 서명운동을 하고 지자체를 설득해 참그린길과 온천천에 철봉 공원이 세워졌습니다.
+    </p>
+    <div class="relative w-full max-w-2xl mx-auto mt-6">
+      <img src="./assets/activity12.png" class="w-[85%] h-auto rounded-lg relative z-0 block">
+      <img src="./assets/activity16.png" class="absolute bottom-[-5%] right-0 w-[45%] h-auto rounded-lg z-10 block">
+    </div>
+  </div>
+
+  <div class="bg-sky-50 p-6 rounded-xl border border-sky-100 shadow-sm">
+    <h3 class="text-xl md:text-2xl font-bold text-dark mb-4 break-keep border-l-4 border-point pl-3">부산시 아시아드보조경기장 폐쇄문제 해결</h3>
+    <p class="text-lg text-graytext break-keep leading-relaxed font-medium mb-6">
+      부산시가 전국체전 준비를 위한 아시아드 보조경기장 보수 공사과정에서 시민의견 수렴없이 조기 폐쇄를 통보했습니다. 주민들과 생활체육인 300여 명의 집단진정을 조직해 폐쇄 기간을 조정하여 문제를 해결했습니다.
+    </p>
+    <div class="relative w-full max-w-2xl mx-auto mt-6">
+      <img src="./assets/activity13.png" class="w-[85%] h-auto rounded-lg relative z-0 block">
+      <img src="./assets/activity17.png" class="absolute bottom-[-5%] right-0 w-[45%] h-auto rounded-lg z-10 block">
+    </div>
+  </div>
+
+  <div class="bg-sky-50 p-6 rounded-xl border border-sky-100 shadow-sm">
+    <h3 class="text-xl md:text-2xl font-bold text-dark mb-4 break-keep border-l-4 border-point pl-3">마을버스 정류소 버스 대기시설 개선</h3>
+    <p class="text-lg text-graytext break-keep leading-relaxed font-medium mb-6">
+      마을버스 부산시청역 정류소는 이용객이 많은데 대기시설은 열악해 폭염이나 우천 시 주민들의 불편이 컸습니다. 주민 집단민원을 통해 대기시설이 추가로 건립 되었습니다.
+    </p>
+    <div class="relative w-full max-w-2xl mx-auto mt-6">
+      <img src="./assets/activity14.png" class="w-[85%] h-auto rounded-lg relative z-0 block">
+      <img src="./assets/activity18.png" class="absolute bottom-[-5%] right-0 w-[45%] h-auto rounded-lg z-10 block">
+    </div>
+  </div>
+
+  <div class="bg-sky-50 p-6 rounded-xl border border-sky-100 shadow-sm">
+    <h3 class="text-xl md:text-2xl font-bold text-dark mb-4 break-keep border-l-4 border-point pl-3">연제구 위험한 보행로 다수 개선</h3>
+    <p class="text-lg text-graytext break-keep leading-relaxed font-medium mb-6">
+      "이 길 때문에 몇 번을 넘어졌는지...구청은 예산이 없다며 안 고쳐줘요" 울퉁불퉁한 인도에서 넘어지신 어르신의 눈물 섞인 목소리를 그냥 지나칠 수 없었습니다. 주민들과 집단 민원을 넣은 끝에 도로는 마침내 정비되었습니다.
+    </p>
+    <div class="relative w-full max-w-2xl mx-auto mt-6">
+      <img src="./assets/activity15.png" class="w-[85%] h-auto rounded-lg relative z-0 block">
+      <img src="./assets/activity19.png" class="absolute bottom-[-5%] right-0 w-[45%] h-auto rounded-lg z-10 block">
+    </div>
+  </div>
 </div>
 </div>
 </section>
 <!-- 5. 공약 홍보 섹션 -->
 <section id="pledge" class="py-20 md:py-32 bg-sky-50 relative border-t border-secondary/20 min-h-[500px]">
-<div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center mb-10">
-<h2 class="text-3xl md:text-5xl font-black text-dark mb-4">주민을 위한 약속 (공약)</h2>
-<div class="w-16 h-1.5 bg-secondary mx-auto"></div>
+<!-- 공약 메인 이미지 -->
+<div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 mb-10">
+  <img src="./assets/activity20.png" alt="공약 메인 이미지" class="w-full h-auto rounded-2xl">
 </div>
-<!-- 공보물이 아직 안 나온 상태 - '준비중입니다' 안내 패널 -->
-<div class="absolute inset-x-0 bottom-0 top-[180px] flex items-center justify-center pointer-events-none px-4 z-20 pb-10">
-<div class="bg-white/95 px-8 md:px-16 py-12 rounded-3xl shadow-xl text-center border-4 border-secondary/50 max-w-2xl w-full">
-<!-- 아이콘 모양 -->
-<div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6 text-white rotate-12">
-<svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+<!-- 카드 UI -->
+<div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- 공약 1 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+  <div class="flex flex-col sm:flex-row gap-6">
+    <div class="w-full sm:w-1/3 flex-shrink-0 flex items-start justify-center">
+      <img src="./assets/activity21.png" alt="공약 1 이미지" class="w-full max-w-[150px] h-auto rounded-xl">
+    </div>
+    <div class="w-full sm:w-2/3">
+      <span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-3">공약 1</span>
+      <h4 class="text-xl font-bold mb-3 text-dark">골목상권을 꼭! 살리겠습니다</h4>
+      <ul class="text-graytext text-base leading-relaxed space-y-2 list-disc pl-5 font-medium">
+        <li>골목형 상점가 지정 대폭 확대</li>
+        <li>전통시장, 골목상권 활성화 특별예산 확보</li>
+        <li>전통시장 상인회 운영 컨설팅 및 지원</li>
+        <li>공공배달앱 도입</li>
+        <li>연산시장 화장실 현대화 추진</li>
+        <li>종량제 봉투 온라인 직배송 체계 도입</li>
+      </ul>
+    </div>
+  </div>
 </div>
-<h3 class="text-3xl md:text-4xl font-black text-dark mb-4">공약 준비중입니다</h3>
-<p class="text-lg md:text-xl text-graytext font-medium break-keep">
-주민 여러분과 함께할 소중한 약속들을 꼼꼼하게 다듬고 있습니다.<br>
-예비공보물 발행 시기에 맞춰 곧 업데이트 하도록 하겠습니다.
-</p>
+<!-- 공약 2 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+  <div class="flex flex-col sm:flex-row gap-6">
+    <div class="w-full sm:w-1/3 flex-shrink-0 flex items-start justify-center">
+      <img src="./assets/activity22.png" alt="공약 2 이미지" class="w-full max-w-[150px] h-auto rounded-xl">
+    </div>
+    <div class="w-full sm:w-2/3">
+      <span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-3">공약 2</span>
+      <h4 class="text-xl font-bold mb-3 text-dark">부모와 아이가 행복한 마을</h4>
+      <ul class="text-graytext text-base leading-relaxed space-y-2 list-disc pl-5 font-medium">
+        <li>연제 달빛어린이병원 폐원에 따른 긴급 재지정</li>
+        <li>학교 앞 통학로 전면 재정비</li>
+        <li>워킹스쿨버스 제도 도입</li>
+        <li>느린학습자 교육권 지원 조례</li>
+        <li>초등학생 의회체험 실시</li>
+      </ul>
+    </div>
+  </div>
 </div>
+<!-- 공약 3 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+  <div class="flex flex-col sm:flex-row gap-6">
+    <div class="w-full sm:w-1/3 flex-shrink-0 flex items-start justify-center">
+      <img src="./assets/activity23.png" alt="공약 3 이미지" class="w-full max-w-[150px] h-auto rounded-xl">
+    </div>
+    <div class="w-full sm:w-2/3">
+      <span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-3">공약 3</span>
+      <h4 class="text-xl font-bold mb-3 text-dark">내 삶의 변화를 만들 생활밀착 공약!</h4>
+      <ul class="text-graytext text-base leading-relaxed space-y-2 list-disc pl-5 font-medium">
+        <li>연화공원, 연이공원 소규모 맨발길 조성</li>
+        <li>연산2동 스마트 흡연부스 설치</li>
+        <li>영조물 배상책임보험 확대</li>
+        <li>배산 무장애 명품 데크길 설치</li>
+        <li>어르신 품위유지비 지원</li>
+      </ul>
+    </div>
+  </div>
 </div>
-<!-- 카드 UI (내용 업데이트 전까지 안내문 뒤에 블러 숨김 보존) -->
-<div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-0 opacity-20 pointer-events-none blur-[2px]">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-<!-- 카드 예시 -->
-<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
-<span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-4">핵심공약 1</span>
-<h4 class="text-xl font-bold mb-3 text-dark">공약 제목이 들어갈 자리입니다</h4>
-<p class="text-graytext text-sm leading-relaxed">상세 공약 설명이 이곳에 들어갑니다. 단락 단위로 상세히 작성 가능합니다.</p>
-</div>
-<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
-<span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-4">핵심공약 2</span>
-<h4 class="text-xl font-bold mb-3 text-dark">공약 제목이 들어갈 자리입니다</h4>
-<p class="text-graytext text-sm leading-relaxed">상세 공약 설명이 이곳에 들어갑니다. 단락 단위로 상세히 작성 가능합니다.</p>
-</div>
-<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
-<span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-4">핵심공약 3</span>
-<h4 class="text-xl font-bold mb-3 text-dark">공약 제목이 들어갈 자리입니다</h4>
-<p class="text-graytext text-sm leading-relaxed">상세 공약 설명이 이곳에 들어갑니다. 단락 단위로 상세히 작성 가능합니다.</p>
+<!-- 공약 4 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+  <div class="flex flex-col sm:flex-row gap-6">
+    <div class="w-full sm:w-1/3 flex-shrink-0 flex items-start justify-center">
+      <img src="./assets/activity24.png" alt="공약 4 이미지" class="w-full max-w-[150px] h-auto rounded-xl">
+    </div>
+    <div class="w-full sm:w-2/3">
+      <span class="inline-block px-3 py-1 bg-secondary text-dark text-sm font-bold rounded-lg mb-3">공약 4</span>
+      <h4 class="text-xl font-bold mb-3 text-dark">우리세금 어디쓸지 우리가 결정!</h4>
+      <ul class="text-graytext text-base leading-relaxed space-y-2 list-disc pl-5 font-medium">
+        <li>연제주민대회 제도화</li>
+        <li>주민참여예산 대폭 확대</li>
+        <li>묵힌 세금 근절 조례 제정</li>
+      </ul>
+    </div>
+  </div>
 </div>
 </div>
 </div>
 </section>
-<!-- 6. 푸터 -->
+<!-- 6. 맺는 말 섹션 -->
+<section class="py-16 bg-secondarydark text-white text-center border-t border-secondary">
+<div class="max-w-4xl mx-auto px-4">
+<div class="mb-8 flex justify-center">
+  <img src="./assets/activity25.png" alt="맺는 말 이미지" class="w-full max-w-2xl h-auto rounded-2xl">
+</div>
+<h2 class="text-3xl md:text-4xl font-black mb-6 tracking-tight">공천만 받으면 당선되는 구의원,<br class="md:hidden"> 주민 눈치를 보지 않습니다.</h2>
+<p class="text-lg md:text-xl font-medium leading-relaxed break-keep">
+구의원 해외연수부터 중단하고 4년 내내 주민을 향해 발로 뛰겠습니다.<br>
+<span class="font-bold text-dark mt-4 block text-2xl">연산 2·4·5동 구의원 2명 중 한 명은 진보구의원으로!</span>
+</p>
+</div>
+</section>
+
+<!-- 7. 후원 안내 영역 -->
+<section class="py-12 bg-graylight border-t border-gray-200">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+<h2 class="text-2xl md:text-3xl font-black text-dark mb-6">오직, 주민에게만 빚지고 싶습니다</h2>
+<div class="bg-white rounded-2xl p-6 md:p-10 shadow-sm border border-gray-200 inline-block text-left w-full max-w-md mx-auto">
+<div class="mb-6">
+<h3 class="text-gray-500 font-bold mb-2">후원계좌</h3>
+<div class="flex items-center justify-between bg-gray-50 p-4 rounded-xl border border-gray-100">
+<div>
+<p id="footer-account" class="font-bold text-dark text-lg break-all">부산은행 113-2020-3227-00</p>
+<p class="text-sm text-graytext mt-1">예금주: 홍기호후원회(연제구의원선거)</p>
+</div>
+<button onclick="copyFooterAccount()" class="bg-secondary text-dark px-4 py-2 rounded-lg font-bold text-sm hover:bg-secondarydark hover:text-white transition-colors flex-shrink-0 ml-4">복사</button>
+</div>
+<p class="text-xs text-gray-400 mt-2 text-right">* 10만원까지는 연말정산 시 전액 돌려받습니다.</p>
+</div>
+<div>
+<h3 class="text-gray-500 font-bold mb-2">후원문의</h3>
+<div class="flex items-center justify-between bg-gray-50 p-4 rounded-xl border border-gray-100">
+<p class="font-bold text-dark text-lg">010-4652-6172</p>
+<button onclick="copyPhoneNumber('010-4652-6172')" class="bg-secondary text-dark px-4 py-2 rounded-lg font-bold text-sm hover:bg-secondarydark hover:text-white transition-colors flex-shrink-0 ml-4">복사</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 7. 푸터 -->
 <footer class="bg-dark text-white pt-10 pb-8 mt-auto">
 <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
 <div class="text-gray-400 font-light text-sm md:text-base mb-6 space-y-2">
 <p>진보당 홍기호 연산2·4·5동 구의원 후보</p>
-<p>전화: <strong class="text-white cursor-pointer hover:text-secondary transition-colors" onclick="copyPhoneNumber(this.innerText)" title="클릭하여 번호 복사">010-4652-6172</strong></p>
+<p>선거사무소: 연제구 월드컵대로 141, 동화빌딩 7층</p>
+<p>전화: <strong class="text-white cursor-pointer hover:text-secondary transition-colors" onclick="copyPhoneNumber('010-4652-6172')" title="클릭하여 번호 복사">010-4652-6172</strong></p>
+<p>인스타그램: hongzzang79 &nbsp;|&nbsp; 페이스북: hongkiho79</p>
 </div>
 <div class="text-xs text-gray-500 font-light mt-8">
 &copy;2026 홍기호 선거사무소. All rights reserved.
@@ -379,7 +560,23 @@ function copyPhoneNumber(numberStr) {
 
 // --- 계좌번호 복사 로직 ---
 function copyAccount() {
-  const accountText = document.getElementById('account-number').innerText;
+  const accountText = '부산은행 113-2020-3227-00';
+  const tempElem = document.createElement('textarea');
+  tempElem.value = accountText;
+  document.body.appendChild(tempElem);
+  tempElem.select();
+  try {
+    document.execCommand('copy');
+    alert('계좌번호가 정상적으로 복사되었습니다. \n따뜻한 후원에 진심으로 감사드립니다!');
+  } catch(err) {
+    alert('복사에 실패했습니다. 번호를 직접 복사해주세요.');
+  }
+  document.body.removeChild(tempElem);
+}
+
+// --- 하단 계좌번호 복사 로직 ---
+function copyFooterAccount() {
+  const accountText = '부산은행 113-2020-3227-00';
   const tempElem = document.createElement('textarea');
   tempElem.value = accountText;
   document.body.appendChild(tempElem);
